@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(42, 42, 46, 1);
+}
+
+.app {
+    padding: 15px;
+    width: 100%;
+}
+
+.title {
+    color: #FFF;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-field {
+    margin-top: 15px;
+    display: flex;
+}
+
+#steam-group-input {
+    display: block;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1.8;
+    border: none;
+    border-radius: 0.2rem;
+    -webkit-transition: box-shadow 300ms;
+    transition: box-shadow 300ms;
+}
+
+#send:hover {
+    color: rgba(255, 255, 255, 0.226);
+    cursor: pointer;
+    transition: ease-in 300ms;
+}
+
+#send {
+    outline: none;
+    margin-left: 10px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    transition: ease-out 300ms;
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Steam Group Inviter",
+    "version": "1.0",
+    "description": "Re-Implementation of Steam Group Mass invite",
+    "permissions": [
+        "declarativeContent",
+        "storage",
+        "https://steamcommunity.com/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://steamcommunity.com/id/*/friends/"
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
