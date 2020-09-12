@@ -1,5 +1,5 @@
 const inputEl = document.querySelector('#steam-group-input');
-const btnEl = document.querySelector('#start');
+const btnEl = document.querySelector('#send');
 
 let steamGroupUrl;
 
