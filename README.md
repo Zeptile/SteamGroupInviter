@@ -1,4 +1,4 @@
-# Steam Group Inviter :: Chrome Extension
+# PATCHED, NO LONGER WORKS :( Steam Group Inviter :: Chrome Extension
 There is currently no way to mass invite people to your steam group as Valve removed it from their UI. <br>
 This extension re-implements this feature by injecting a script into the Steam Friends page.
 
